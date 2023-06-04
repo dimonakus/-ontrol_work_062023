@@ -27,3 +27,11 @@ void PrintArray(string[] arr)
     }
     Console.WriteLine();
 }
+
+Console.Write("Программой задан массив строк: ");
+string[] textArray = new string[6] { "Лев", "23", "Привет", "Бал", "Кукиш", "Ррр" };
+string[] formatTextArray = new string[textArray.Length];
+FormatTextArray(textArray, formatTextArray);
+PrintArray(textArray);
+Console.Write("Результат работы программы - отбор строк с количеством символом менее или равным трех: ");
+PrintArray(formatTextArray);
