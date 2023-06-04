@@ -1,0 +1,66 @@
+<mxfile host="app.diagrams.net" modified="2023-06-04T12:06:03.593Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36 OPR/99.0.0.0 (Edition Yx 05)" etag="Wf8LSR8ruVoa5a0AmVR7" version="21.3.4" type="github">
+  <diagram name="Страница 1" id="sBbmahb8OQLL63eK12MA">
+    <mxGraphModel dx="1634" dy="766" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="nPSqiPCIUIay4V2Ld7TW-3" value="Нарисовать блок-схему алгоритма (можно обойтись блок-схемой основной содержательной части, если вы выделяете её в отдельный метод).&lt;br&gt;Задача: Написать программу, которая из имеющегося массива строк формирует новый массив из строк, длина которых меньше, либо равна 3 символам. Первоначальный массив можно ввести с клавиатуры, либо задать на старте выполнения алгоритма. При решении не рекомендуется пользоваться коллекциями, лучше обойтись исключительно массивами." style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="29" y="40" width="770" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="nPSqiPCIUIay4V2Ld7TW-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="nPSqiPCIUIay4V2Ld7TW-4" target="nPSqiPCIUIay4V2Ld7TW-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nPSqiPCIUIay4V2Ld7TW-4" value="Start" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="222" y="130" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="nPSqiPCIUIay4V2Ld7TW-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="nPSqiPCIUIay4V2Ld7TW-5" target="nPSqiPCIUIay4V2Ld7TW-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nPSqiPCIUIay4V2Ld7TW-5" value="string[]&amp;nbsp;textArray&lt;br&gt;string[] formatTextArray" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="217" y="200" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nPSqiPCIUIay4V2Ld7TW-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="nPSqiPCIUIay4V2Ld7TW-7" target="nPSqiPCIUIay4V2Ld7TW-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nPSqiPCIUIay4V2Ld7TW-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="nPSqiPCIUIay4V2Ld7TW-7" target="nPSqiPCIUIay4V2Ld7TW-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nPSqiPCIUIay4V2Ld7TW-7" value="for (int i = 0; i &amp;lt; textArray.Length; i++" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="177" y="290" width="210" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="nPSqiPCIUIay4V2Ld7TW-13" value="Yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="nPSqiPCIUIay4V2Ld7TW-9" target="nPSqiPCIUIay4V2Ld7TW-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nPSqiPCIUIay4V2Ld7TW-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="nPSqiPCIUIay4V2Ld7TW-9">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="182" y="330" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="162" y="440" />
+              <mxPoint x="162" y="330" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nPSqiPCIUIay4V2Ld7TW-18" value="No" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="nPSqiPCIUIay4V2Ld7TW-17">
+          <mxGeometry x="0.2364" y="-4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nPSqiPCIUIay4V2Ld7TW-9" value="if (textArray[i].Length &amp;lt;= 3)" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="192" y="400" width="180" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="nPSqiPCIUIay4V2Ld7TW-12" value="formatTextArray&lt;span style=&quot;background-color: initial;&quot;&gt;[count] =&amp;nbsp;textArray[i];&lt;/span&gt;&lt;br&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;count++;&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="179.5" y="520" width="205" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nPSqiPCIUIay4V2Ld7TW-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="nPSqiPCIUIay4V2Ld7TW-19" target="nPSqiPCIUIay4V2Ld7TW-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nPSqiPCIUIay4V2Ld7TW-19" value="PrintArray(formatTextArray)" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="1">
+          <mxGeometry x="422" y="305" width="150" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="nPSqiPCIUIay4V2Ld7TW-21" value="Finish" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="610" y="310" width="120" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
